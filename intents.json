@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "How far?",
+        "How you dey?",
+        "Hey",
+        "How are you?",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "I full ground o, Welcome!",
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Wetin you get?",
+        "Wetin una get?",
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What do you have?",
+        "What is on the menu?"
+      ],
+      "responses": [
+        "We get Kai-Kai, Ogogoro and Shepe",
+        "We dey sell Kai-Kai, Ogogoro and Shepe"
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": [
+        "I want ogogoro",
+        "Give me kaikai",
+        "I want shepe",
+        "I want kaikai",
+        "Give me shepe",
+        "Give me ogogoro"
+      ],
+      "responses": [
+        "Correct! Nothing do you",
+        "We get am, na money kill am!",
+        "E dey, na to pay remain!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "How i go take pay una?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "How can i pay?",
+        "How do i pay?"
+      ],
+      "responses": [
+        "We dey accept VISA, Mastercard, paystack, flutterwave and remitta",
+        "We dey accept most major credit cards, paystack, flutterwave and remitta"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "If i pay now, when i go get am?",
+        "When i go get my shayo?",
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery na 2-4 days",
+        "Shipping na 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Talk wetin go make me laugh",
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "your papa name na ogogoro",
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
